@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+    <title>Número Secreto</title>
+    <link rel ="stylesheet" href="styles.css">
+    <style>.pointer {cursor: pointer;}</style>
+
+</head>
+
+<body>
+    <h1>Adivina el número secreto</h1>
+    <div id="contenedor" class="container">
+        <label for="secretInput" class="question">¿Qué número crees que es el número secreto?</label>
+        <input type="number" id="secretInput" min="1" max="100" placeholder="Ingresa un número">
+        <button id="secretButton" class="pointer">Enviar</button> 
+    </div>
+        <div id="message"></div>
+<div id="customAlert" class="custom-alert">
+    <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWJxMGphYTBhZzQ2MnJwdjY3dTY3czczNGM5Y3Q0anVieXI1dW9xdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT1XGzAnABSXy8DPCU/giphy.gif" alt="Felicidades" style="width:400px;"><br>
+    <span id="customAlertMsg"></span><br><br>
+    <button class="pointer" onclick="document.getElementById('customAlert').style.display='none'">Cerrar</button>
+</div>
+<img id="chest" src="https://img.freepik.com/free-psd/sturdy-wooden-treasure-chest-with-iron-bands-rivets-shows-rustic-design-perfect-storing-valuables-adding-vintage-touch-any-room_632498-30495.jpg?semt=ais_hybrid&w=740">
+    <script src ="index.js"></script>
+</body>
